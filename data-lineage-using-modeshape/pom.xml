@@ -1,0 +1,140 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<artifactId>teiid-quickstart-parent</artifactId>
+		<groupId>org.jboss.teiid.quickstart</groupId>
+		<version>2.1.0</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>datalineage</artifactId>
+
+	<name>Data Lineage</name>
+	<description>This demonstrates ModeShape can be used with Teiid to track the data lineage for the metadata defined in the Teiid artifacts</description>
+
+	<properties>
+	    <modeshape.url.parm>http://localhost:8080/modeshape-rest</modeshape.url.parm>
+    	<modeshape.repo.parm>dv</modeshape.repo.parm>
+		<modeshape.workspace.parm>default</modeshape.workspace.parm>
+    	<modeshape.user.parm>modeshapeUser</modeshape.user.parm>
+		<modeshape.password.parm>admin_24</modeshape.password.parm>
+		
+		<unpublish.parm> </unpublish.parm>
+		
+		<workspace.path>./publish_files/</workspace.path>
+
+		
+	</properties>
+	<dependencies>
+		<dependency>
+            <groupId>org.modeshape</groupId>
+            <artifactId>modeshape-client</artifactId>
+ 		</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency> 	
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+        </dependency>   
+	    <dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+		</dependency>                	
+	</dependencies>
+
+    <profiles>
+        <profile>
+            <id>defaultuser</id>
+            <activation>
+                <property>
+                    <name>publish</name>
+                </property>
+            </activation>                     
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>${version.org.codehaus.mojo.exec.plugin}</version>
+                        <executions>
+                            <execution>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>java</goal>
+                                </goals>
+                                <configuration>
+                                    <mainClass>JsonRestClientTest</mainClass>
+                                    <arguments>
+                                        
+            <argument>--url</argument>
+			<argument>${modeshape.server.parm}</argument>
+			<argument>--repo</argument>
+			<argument>${modeshape.repo.parm}</argument>
+			<argument>--workspacename</argument>
+			<argument>${modeshape.workspace.parm}</argument>
+			<argument>--workspacepath</argument>
+			<argument>${workspace.path}</argument>
+			<argument>--file</argument>
+			<argument>${load.file}</argument>
+			<argument>--username</argument>
+			<argument>${modeshape.user.parm}</argument>
+			<argument>--pwd</argument>			
+			<argument>${modeshape.password.parm}</argument>
+			<argument>${unpublish.parm}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>                
+                </plugins>
+            </build>
+        </profile>      
+        <profile>
+            <id>publish</id>
+            <activation>
+                <property>
+                    <name>pub</name>
+                </property>
+            </activation>                     
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>${version.org.codehaus.mojo.exec.plugin}</version>
+                        <executions>
+                            <execution>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>java</goal>
+                                </goals>
+                                <configuration>
+                                    <mainClass>JsonRestClientTest</mainClass>
+                                                                      <arguments>
+  
+            <argument>--url</argument>
+			<argument>${modeshape.url.parm}</argument>
+ 			<argument>--repo</argument>
+			<argument>${modeshape.repo.parm}</argument>
+			<argument>--workspacename</argument>
+			<argument>${modeshape.workspace.parm}</argument>
+  			<argument>--workspacepath</argument>
+			<argument>${workspace.path}</argument>                                  
+ 			<argument>--username</argument>
+			<argument>${modeshape.user.parm}</argument>
+			<argument>--pwd</argument>			
+			<argument>${modeshape.password.parm}</argument> 
+			                                   </arguments>
+ 
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>                
+                </plugins>
+            </build>
+        </profile>                    
+    </profiles>
+</project>

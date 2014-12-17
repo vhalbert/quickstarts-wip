@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpis>
+  <dataprovider code="dataprovider_72211418651756306" type="sql">
+    <description language="en">DataLineageVdbModels</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from VDB_Lineage.VDB_Models</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="model_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">model_name</name>
+        <name language="zh">model_name</name>
+        <name language="ja">model_name</name>
+        <name language="en">model_name</name>
+        <name language="es">model_name</name>
+        <name language="de">model_name</name>
+        <name language="pt">model_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="jcr_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_uuid</name>
+        <name language="zh">jcr_uuid</name>
+        <name language="ja">jcr_uuid</name>
+        <name language="en">jcr_uuid</name>
+        <name language="es">jcr_uuid</name>
+        <name language="de">jcr_uuid</name>
+        <name language="pt">jcr_uuid</name>
+      </dataproperty>
+      <dataproperty id="mmcore_description">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_description</name>
+        <name language="zh">mmcore_description</name>
+        <name language="ja">mmcore_description</name>
+        <name language="en">mmcore_description</name>
+        <name language="es">mmcore_description</name>
+        <name language="de">mmcore_description</name>
+        <name language="pt">mmcore_description</name>
+      </dataproperty>
+      <dataproperty id="mmcore_maxsetsize">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mmcore_maxsetsize</name>
+        <name language="zh">mmcore_maxsetsize</name>
+        <name language="ja">mmcore_maxsetsize</name>
+        <name language="en">mmcore_maxsetsize</name>
+        <name language="es">mmcore_maxsetsize</name>
+        <name language="de">mmcore_maxsetsize</name>
+        <name language="pt">mmcore_maxsetsize</name>
+      </dataproperty>
+      <dataproperty id="mmcore_modeltype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_modeltype</name>
+        <name language="zh">mmcore_modeltype</name>
+        <name language="ja">mmcore_modeltype</name>
+        <name language="en">mmcore_modeltype</name>
+        <name language="es">mmcore_modeltype</name>
+        <name language="de">mmcore_modeltype</name>
+        <name language="pt">mmcore_modeltype</name>
+      </dataproperty>
+      <dataproperty id="mmcore_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_nameinsource</name>
+        <name language="zh">mmcore_nameinsource</name>
+        <name language="ja">mmcore_nameinsource</name>
+        <name language="en">mmcore_nameinsource</name>
+        <name language="es">mmcore_nameinsource</name>
+        <name language="de">mmcore_nameinsource</name>
+        <name language="pt">mmcore_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="mmcore_originalfile">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_originalfile</name>
+        <name language="zh">mmcore_originalfile</name>
+        <name language="ja">mmcore_originalfile</name>
+        <name language="en">mmcore_originalfile</name>
+        <name language="es">mmcore_originalfile</name>
+        <name language="de">mmcore_originalfile</name>
+        <name language="pt">mmcore_originalfile</name>
+      </dataproperty>
+      <dataproperty id="mmcore_primarymetamodeluri">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_primarymetamodeluri</name>
+        <name language="zh">mmcore_primarymetamodeluri</name>
+        <name language="ja">mmcore_primarymetamodeluri</name>
+        <name language="en">mmcore_primarymetamodeluri</name>
+        <name language="es">mmcore_primarymetamodeluri</name>
+        <name language="de">mmcore_primarymetamodeluri</name>
+        <name language="pt">mmcore_primarymetamodeluri</name>
+      </dataproperty>
+      <dataproperty id="mmcore_producername">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_producername</name>
+        <name language="zh">mmcore_producername</name>
+        <name language="ja">mmcore_producername</name>
+        <name language="en">mmcore_producername</name>
+        <name language="es">mmcore_producername</name>
+        <name language="de">mmcore_producername</name>
+        <name language="pt">mmcore_producername</name>
+      </dataproperty>
+      <dataproperty id="mmcore_producerversion">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_producerversion</name>
+        <name language="zh">mmcore_producerversion</name>
+        <name language="ja">mmcore_producerversion</name>
+        <name language="en">mmcore_producerversion</name>
+        <name language="es">mmcore_producerversion</name>
+        <name language="de">mmcore_producerversion</name>
+        <name language="pt">mmcore_producerversion</name>
+      </dataproperty>
+      <dataproperty id="mmcore_supportsdistinct">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_supportsdistinct</name>
+        <name language="zh">mmcore_supportsdistinct</name>
+        <name language="ja">mmcore_supportsdistinct</name>
+        <name language="en">mmcore_supportsdistinct</name>
+        <name language="es">mmcore_supportsdistinct</name>
+        <name language="de">mmcore_supportsdistinct</name>
+        <name language="pt">mmcore_supportsdistinct</name>
+      </dataproperty>
+      <dataproperty id="mmcore_supportsjoin">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_supportsjoin</name>
+        <name language="zh">mmcore_supportsjoin</name>
+        <name language="ja">mmcore_supportsjoin</name>
+        <name language="en">mmcore_supportsjoin</name>
+        <name language="es">mmcore_supportsjoin</name>
+        <name language="de">mmcore_supportsjoin</name>
+        <name language="pt">mmcore_supportsjoin</name>
+      </dataproperty>
+      <dataproperty id="mmcore_supportsorderby">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_supportsorderby</name>
+        <name language="zh">mmcore_supportsorderby</name>
+        <name language="ja">mmcore_supportsorderby</name>
+        <name language="en">mmcore_supportsorderby</name>
+        <name language="es">mmcore_supportsorderby</name>
+        <name language="de">mmcore_supportsorderby</name>
+        <name language="pt">mmcore_supportsorderby</name>
+      </dataproperty>
+      <dataproperty id="mmcore_supportsouterjoin">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_supportsouterjoin</name>
+        <name language="zh">mmcore_supportsouterjoin</name>
+        <name language="ja">mmcore_supportsouterjoin</name>
+        <name language="en">mmcore_supportsouterjoin</name>
+        <name language="es">mmcore_supportsouterjoin</name>
+        <name language="de">mmcore_supportsouterjoin</name>
+        <name language="pt">mmcore_supportsouterjoin</name>
+      </dataproperty>
+      <dataproperty id="mmcore_supportswhereall">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_supportswhereall</name>
+        <name language="zh">mmcore_supportswhereall</name>
+        <name language="ja">mmcore_supportswhereall</name>
+        <name language="en">mmcore_supportswhereall</name>
+        <name language="es">mmcore_supportswhereall</name>
+        <name language="de">mmcore_supportswhereall</name>
+        <name language="pt">mmcore_supportswhereall</name>
+      </dataproperty>
+      <dataproperty id="mmcore_visible">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_visible</name>
+        <name language="zh">mmcore_visible</name>
+        <name language="ja">mmcore_visible</name>
+        <name language="en">mmcore_visible</name>
+        <name language="es">mmcore_visible</name>
+        <name language="de">mmcore_visible</name>
+        <name language="pt">mmcore_visible</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="mode_sha1">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_sha1</name>
+        <name language="zh">mode_sha1</name>
+        <name language="ja">mode_sha1</name>
+        <name language="en">mode_sha1</name>
+        <name language="es">mode_sha1</name>
+        <name language="de">mode_sha1</name>
+        <name language="pt">mode_sha1</name>
+      </dataproperty>
+      <dataproperty id="vdb_builtin">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_builtin</name>
+        <name language="zh">vdb_builtin</name>
+        <name language="ja">vdb_builtin</name>
+        <name language="en">vdb_builtin</name>
+        <name language="es">vdb_builtin</name>
+        <name language="de">vdb_builtin</name>
+        <name language="pt">vdb_builtin</name>
+      </dataproperty>
+      <dataproperty id="vdb_checksum">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">vdb_checksum</name>
+        <name language="zh">vdb_checksum</name>
+        <name language="ja">vdb_checksum</name>
+        <name language="en">vdb_checksum</name>
+        <name language="es">vdb_checksum</name>
+        <name language="de">vdb_checksum</name>
+        <name language="pt">vdb_checksum</name>
+      </dataproperty>
+      <dataproperty id="vdb_description">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_description</name>
+        <name language="zh">vdb_description</name>
+        <name language="ja">vdb_description</name>
+        <name language="en">vdb_description</name>
+        <name language="es">vdb_description</name>
+        <name language="de">vdb_description</name>
+        <name language="pt">vdb_description</name>
+      </dataproperty>
+      <dataproperty id="vdb_pathinvdb">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_pathinvdb</name>
+        <name language="zh">vdb_pathinvdb</name>
+        <name language="ja">vdb_pathinvdb</name>
+        <name language="en">vdb_pathinvdb</name>
+        <name language="es">vdb_pathinvdb</name>
+        <name language="de">vdb_pathinvdb</name>
+        <name language="pt">vdb_pathinvdb</name>
+      </dataproperty>
+      <dataproperty id="vdb_sourcejndiname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_sourcejndiname</name>
+        <name language="zh">vdb_sourcejndiname</name>
+        <name language="ja">vdb_sourcejndiname</name>
+        <name language="en">vdb_sourcejndiname</name>
+        <name language="es">vdb_sourcejndiname</name>
+        <name language="de">vdb_sourcejndiname</name>
+        <name language="pt">vdb_sourcejndiname</name>
+      </dataproperty>
+      <dataproperty id="vdb_sourcename">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_sourcename</name>
+        <name language="zh">vdb_sourcename</name>
+        <name language="ja">vdb_sourcename</name>
+        <name language="en">vdb_sourcename</name>
+        <name language="es">vdb_sourcename</name>
+        <name language="de">vdb_sourcename</name>
+        <name language="pt">vdb_sourcename</name>
+      </dataproperty>
+      <dataproperty id="vdb_sourcetranslator">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_sourcetranslator</name>
+        <name language="zh">vdb_sourcetranslator</name>
+        <name language="ja">vdb_sourcetranslator</name>
+        <name language="en">vdb_sourcetranslator</name>
+        <name language="es">vdb_sourcetranslator</name>
+        <name language="de">vdb_sourcetranslator</name>
+        <name language="pt">vdb_sourcetranslator</name>
+      </dataproperty>
+      <dataproperty id="vdb_visible">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_visible</name>
+        <name language="zh">vdb_visible</name>
+        <name language="ja">vdb_visible</name>
+        <name language="en">vdb_visible</name>
+        <name language="es">vdb_visible</name>
+        <name language="de">vdb_visible</name>
+        <name language="pt">vdb_visible</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+      <dataproperty id="xmi_version">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">xmi_version</name>
+        <name language="zh">xmi_version</name>
+        <name language="ja">xmi_version</name>
+        <name language="en">xmi_version</name>
+        <name language="es">xmi_version</name>
+        <name language="de">xmi_version</name>
+        <name language="pt">xmi_version</name>
+      </dataproperty>
+      <dataproperty id="vdb_version">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">vdb_version</name>
+        <name language="zh">vdb_version</name>
+        <name language="ja">vdb_version</name>
+        <name language="en">vdb_version</name>
+        <name language="es">vdb_version</name>
+        <name language="de">vdb_version</name>
+        <name language="pt">vdb_version</name>
+      </dataproperty>
+      <dataproperty id="vdb_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_name</name>
+        <name language="zh">vdb_name</name>
+        <name language="ja">vdb_name</name>
+        <name language="en">vdb_name</name>
+        <name language="es">vdb_name</name>
+        <name language="de">vdb_name</name>
+        <name language="pt">vdb_name</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_55031418651706568" type="sql">
+    <description language="en">DataLineageVdbs</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>select * from VDB_Lineage.VDBs</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="vdb_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_name</name>
+        <name language="zh">vdb_name</name>
+        <name language="ja">vdb_name</name>
+        <name language="en">vdb_name</name>
+        <name language="es">vdb_name</name>
+        <name language="de">vdb_name</name>
+        <name language="pt">vdb_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="mode_sha1">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_sha1</name>
+        <name language="zh">mode_sha1</name>
+        <name language="ja">mode_sha1</name>
+        <name language="en">mode_sha1</name>
+        <name language="es">mode_sha1</name>
+        <name language="de">mode_sha1</name>
+        <name language="pt">mode_sha1</name>
+      </dataproperty>
+      <dataproperty id="description">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">description</name>
+        <name language="zh">description</name>
+        <name language="ja">description</name>
+        <name language="en">description</name>
+        <name language="es">description</name>
+        <name language="de">description</name>
+        <name language="pt">description</name>
+      </dataproperty>
+      <dataproperty id="vdb_originalfile">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_originalfile</name>
+        <name language="zh">vdb_originalfile</name>
+        <name language="ja">vdb_originalfile</name>
+        <name language="en">vdb_originalfile</name>
+        <name language="es">vdb_originalfile</name>
+        <name language="de">vdb_originalfile</name>
+        <name language="pt">vdb_originalfile</name>
+      </dataproperty>
+      <dataproperty id="vdb_preview">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">vdb_preview</name>
+        <name language="zh">vdb_preview</name>
+        <name language="ja">vdb_preview</name>
+        <name language="en">vdb_preview</name>
+        <name language="es">vdb_preview</name>
+        <name language="de">vdb_preview</name>
+        <name language="pt">vdb_preview</name>
+      </dataproperty>
+      <dataproperty id="vdb_version">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">vdb_version</name>
+        <name language="zh">vdb_version</name>
+        <name language="ja">vdb_version</name>
+        <name language="en">vdb_version</name>
+        <name language="es">vdb_version</name>
+        <name language="de">vdb_version</name>
+        <name language="pt">vdb_version</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_84141418651846356" type="sql">
+    <description language="en">DataLineage_Model_Tables</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from VDB_Lineage.Model_Tables</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="model_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">model_name</name>
+        <name language="zh">model_name</name>
+        <name language="ja">model_name</name>
+        <name language="en">model_name</name>
+        <name language="es">model_name</name>
+        <name language="de">model_name</name>
+        <name language="pt">model_name</name>
+      </dataproperty>
+      <dataproperty id="mmcore_modeltype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mmcore_modeltype</name>
+        <name language="zh">mmcore_modeltype</name>
+        <name language="ja">mmcore_modeltype</name>
+        <name language="en">mmcore_modeltype</name>
+        <name language="es">mmcore_modeltype</name>
+        <name language="de">mmcore_modeltype</name>
+        <name language="pt">mmcore_modeltype</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_27911418423367099" type="sql">
+    <description language="en">RelationalTableColumns</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from Relational_Model_View.Table_Columns</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="table_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="column_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">column_name</name>
+        <name language="zh">column_name</name>
+        <name language="ja">column_name</name>
+        <name language="en">column_name</name>
+        <name language="es">column_name</name>
+        <name language="de">column_name</name>
+        <name language="pt">column_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_autoincremented">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_autoincremented</name>
+        <name language="zh">relational_autoincremented</name>
+        <name language="ja">relational_autoincremented</name>
+        <name language="en">relational_autoincremented</name>
+        <name language="es">relational_autoincremented</name>
+        <name language="de">relational_autoincremented</name>
+        <name language="pt">relational_autoincremented</name>
+      </dataproperty>
+      <dataproperty id="relational_casesensitive">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_casesensitive</name>
+        <name language="zh">relational_casesensitive</name>
+        <name language="ja">relational_casesensitive</name>
+        <name language="en">relational_casesensitive</name>
+        <name language="es">relational_casesensitive</name>
+        <name language="de">relational_casesensitive</name>
+        <name language="pt">relational_casesensitive</name>
+      </dataproperty>
+      <dataproperty id="relational_charactersetname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_charactersetname</name>
+        <name language="zh">relational_charactersetname</name>
+        <name language="ja">relational_charactersetname</name>
+        <name language="en">relational_charactersetname</name>
+        <name language="es">relational_charactersetname</name>
+        <name language="de">relational_charactersetname</name>
+        <name language="pt">relational_charactersetname</name>
+      </dataproperty>
+      <dataproperty id="relational_collationname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_collationname</name>
+        <name language="zh">relational_collationname</name>
+        <name language="ja">relational_collationname</name>
+        <name language="en">relational_collationname</name>
+        <name language="es">relational_collationname</name>
+        <name language="de">relational_collationname</name>
+        <name language="pt">relational_collationname</name>
+      </dataproperty>
+      <dataproperty id="relational_currency">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_currency</name>
+        <name language="zh">relational_currency</name>
+        <name language="ja">relational_currency</name>
+        <name language="en">relational_currency</name>
+        <name language="es">relational_currency</name>
+        <name language="de">relational_currency</name>
+        <name language="pt">relational_currency</name>
+      </dataproperty>
+      <dataproperty id="relational_defaultvalue">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_defaultvalue</name>
+        <name language="zh">relational_defaultvalue</name>
+        <name language="ja">relational_defaultvalue</name>
+        <name language="en">relational_defaultvalue</name>
+        <name language="es">relational_defaultvalue</name>
+        <name language="de">relational_defaultvalue</name>
+        <name language="pt">relational_defaultvalue</name>
+      </dataproperty>
+      <dataproperty id="relational_distinctvaluecount">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_distinctvaluecount</name>
+        <name language="zh">relational_distinctvaluecount</name>
+        <name language="ja">relational_distinctvaluecount</name>
+        <name language="en">relational_distinctvaluecount</name>
+        <name language="es">relational_distinctvaluecount</name>
+        <name language="de">relational_distinctvaluecount</name>
+        <name language="pt">relational_distinctvaluecount</name>
+      </dataproperty>
+      <dataproperty id="relational_fixedlength">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_fixedlength</name>
+        <name language="zh">relational_fixedlength</name>
+        <name language="ja">relational_fixedlength</name>
+        <name language="en">relational_fixedlength</name>
+        <name language="es">relational_fixedlength</name>
+        <name language="de">relational_fixedlength</name>
+        <name language="pt">relational_fixedlength</name>
+      </dataproperty>
+      <dataproperty id="relational_format">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_format</name>
+        <name language="zh">relational_format</name>
+        <name language="ja">relational_format</name>
+        <name language="en">relational_format</name>
+        <name language="es">relational_format</name>
+        <name language="de">relational_format</name>
+        <name language="pt">relational_format</name>
+      </dataproperty>
+      <dataproperty id="relational_length">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_length</name>
+        <name language="zh">relational_length</name>
+        <name language="ja">relational_length</name>
+        <name language="en">relational_length</name>
+        <name language="es">relational_length</name>
+        <name language="de">relational_length</name>
+        <name language="pt">relational_length</name>
+      </dataproperty>
+      <dataproperty id="relational_maximumvalue">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_maximumvalue</name>
+        <name language="zh">relational_maximumvalue</name>
+        <name language="ja">relational_maximumvalue</name>
+        <name language="en">relational_maximumvalue</name>
+        <name language="es">relational_maximumvalue</name>
+        <name language="de">relational_maximumvalue</name>
+        <name language="pt">relational_maximumvalue</name>
+      </dataproperty>
+      <dataproperty id="relational_minimumvalue">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_minimumvalue</name>
+        <name language="zh">relational_minimumvalue</name>
+        <name language="ja">relational_minimumvalue</name>
+        <name language="en">relational_minimumvalue</name>
+        <name language="es">relational_minimumvalue</name>
+        <name language="de">relational_minimumvalue</name>
+        <name language="pt">relational_minimumvalue</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="relational_nativetype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nativetype</name>
+        <name language="zh">relational_nativetype</name>
+        <name language="ja">relational_nativetype</name>
+        <name language="en">relational_nativetype</name>
+        <name language="es">relational_nativetype</name>
+        <name language="de">relational_nativetype</name>
+        <name language="pt">relational_nativetype</name>
+      </dataproperty>
+      <dataproperty id="relational_nullvaluecount">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_nullvaluecount</name>
+        <name language="zh">relational_nullvaluecount</name>
+        <name language="ja">relational_nullvaluecount</name>
+        <name language="en">relational_nullvaluecount</name>
+        <name language="es">relational_nullvaluecount</name>
+        <name language="de">relational_nullvaluecount</name>
+        <name language="pt">relational_nullvaluecount</name>
+      </dataproperty>
+      <dataproperty id="relational_nullable">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nullable</name>
+        <name language="zh">relational_nullable</name>
+        <name language="ja">relational_nullable</name>
+        <name language="en">relational_nullable</name>
+        <name language="es">relational_nullable</name>
+        <name language="de">relational_nullable</name>
+        <name language="pt">relational_nullable</name>
+      </dataproperty>
+      <dataproperty id="relational_precision">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_precision</name>
+        <name language="zh">relational_precision</name>
+        <name language="ja">relational_precision</name>
+        <name language="en">relational_precision</name>
+        <name language="es">relational_precision</name>
+        <name language="de">relational_precision</name>
+        <name language="pt">relational_precision</name>
+      </dataproperty>
+      <dataproperty id="relational_radix">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_radix</name>
+        <name language="zh">relational_radix</name>
+        <name language="ja">relational_radix</name>
+        <name language="en">relational_radix</name>
+        <name language="es">relational_radix</name>
+        <name language="de">relational_radix</name>
+        <name language="pt">relational_radix</name>
+      </dataproperty>
+      <dataproperty id="relational_scale">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_scale</name>
+        <name language="zh">relational_scale</name>
+        <name language="ja">relational_scale</name>
+        <name language="en">relational_scale</name>
+        <name language="es">relational_scale</name>
+        <name language="de">relational_scale</name>
+        <name language="pt">relational_scale</name>
+      </dataproperty>
+      <dataproperty id="relational_searchability">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_searchability</name>
+        <name language="zh">relational_searchability</name>
+        <name language="ja">relational_searchability</name>
+        <name language="en">relational_searchability</name>
+        <name language="es">relational_searchability</name>
+        <name language="de">relational_searchability</name>
+        <name language="pt">relational_searchability</name>
+      </dataproperty>
+      <dataproperty id="relational_selectable">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_selectable</name>
+        <name language="zh">relational_selectable</name>
+        <name language="ja">relational_selectable</name>
+        <name language="en">relational_selectable</name>
+        <name language="es">relational_selectable</name>
+        <name language="de">relational_selectable</name>
+        <name language="pt">relational_selectable</name>
+      </dataproperty>
+      <dataproperty id="relational_signed">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_signed</name>
+        <name language="zh">relational_signed</name>
+        <name language="ja">relational_signed</name>
+        <name language="en">relational_signed</name>
+        <name language="es">relational_signed</name>
+        <name language="de">relational_signed</name>
+        <name language="pt">relational_signed</name>
+      </dataproperty>
+      <dataproperty id="relational_type">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_type</name>
+        <name language="zh">relational_type</name>
+        <name language="ja">relational_type</name>
+        <name language="en">relational_type</name>
+        <name language="es">relational_type</name>
+        <name language="de">relational_type</name>
+        <name language="pt">relational_type</name>
+      </dataproperty>
+      <dataproperty id="relational_typehref">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_typehref</name>
+        <name language="zh">relational_typehref</name>
+        <name language="ja">relational_typehref</name>
+        <name language="en">relational_typehref</name>
+        <name language="es">relational_typehref</name>
+        <name language="de">relational_typehref</name>
+        <name language="pt">relational_typehref</name>
+      </dataproperty>
+      <dataproperty id="relational_typename">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_typename</name>
+        <name language="zh">relational_typename</name>
+        <name language="ja">relational_typename</name>
+        <name language="en">relational_typename</name>
+        <name language="es">relational_typename</name>
+        <name language="de">relational_typename</name>
+        <name language="pt">relational_typename</name>
+      </dataproperty>
+      <dataproperty id="relational_typexmiuuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_typexmiuuid</name>
+        <name language="zh">relational_typexmiuuid</name>
+        <name language="ja">relational_typexmiuuid</name>
+        <name language="en">relational_typexmiuuid</name>
+        <name language="es">relational_typexmiuuid</name>
+        <name language="de">relational_typexmiuuid</name>
+        <name language="pt">relational_typexmiuuid</name>
+      </dataproperty>
+      <dataproperty id="relational_updateable">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_updateable</name>
+        <name language="zh">relational_updateable</name>
+        <name language="ja">relational_updateable</name>
+        <name language="en">relational_updateable</name>
+        <name language="es">relational_updateable</name>
+        <name language="de">relational_updateable</name>
+        <name language="pt">relational_updateable</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_46601418423334161" type="sql">
+    <description language="en">RelationalTableForeignKeys</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from Relational_Model_View.Table_Foreign_Keys</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="table_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="foreignkey_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">foreignkey_name</name>
+        <name language="zh">foreignkey_name</name>
+        <name language="ja">foreignkey_name</name>
+        <name language="en">foreignkey_name</name>
+        <name language="es">foreignkey_name</name>
+        <name language="de">foreignkey_name</name>
+        <name language="pt">foreignkey_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_foreignkeymultiplicity">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_foreignkeymultiplicity</name>
+        <name language="zh">relational_foreignkeymultiplicity</name>
+        <name language="ja">relational_foreignkeymultiplicity</name>
+        <name language="en">relational_foreignkeymultiplicity</name>
+        <name language="es">relational_foreignkeymultiplicity</name>
+        <name language="de">relational_foreignkeymultiplicity</name>
+        <name language="pt">relational_foreignkeymultiplicity</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="relational_primarykeymultiplicity">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_primarykeymultiplicity</name>
+        <name language="zh">relational_primarykeymultiplicity</name>
+        <name language="ja">relational_primarykeymultiplicity</name>
+        <name language="en">relational_primarykeymultiplicity</name>
+        <name language="es">relational_primarykeymultiplicity</name>
+        <name language="de">relational_primarykeymultiplicity</name>
+        <name language="pt">relational_primarykeymultiplicity</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_66661418423492957" type="sql">
+    <description language="en">RelationalTableIndexs</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from Relational_Model_View.Table_Index</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="table_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="index_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">index_name</name>
+        <name language="zh">index_name</name>
+        <name language="ja">index_name</name>
+        <name language="en">index_name</name>
+        <name language="es">index_name</name>
+        <name language="de">index_name</name>
+        <name language="pt">index_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_autoupdate">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_autoupdate</name>
+        <name language="zh">relational_autoupdate</name>
+        <name language="ja">relational_autoupdate</name>
+        <name language="en">relational_autoupdate</name>
+        <name language="es">relational_autoupdate</name>
+        <name language="de">relational_autoupdate</name>
+        <name language="pt">relational_autoupdate</name>
+      </dataproperty>
+      <dataproperty id="relational_filtercondition">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_filtercondition</name>
+        <name language="zh">relational_filtercondition</name>
+        <name language="ja">relational_filtercondition</name>
+        <name language="en">relational_filtercondition</name>
+        <name language="es">relational_filtercondition</name>
+        <name language="de">relational_filtercondition</name>
+        <name language="pt">relational_filtercondition</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="relational_nullable">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nullable</name>
+        <name language="zh">relational_nullable</name>
+        <name language="ja">relational_nullable</name>
+        <name language="en">relational_nullable</name>
+        <name language="es">relational_nullable</name>
+        <name language="de">relational_nullable</name>
+        <name language="pt">relational_nullable</name>
+      </dataproperty>
+      <dataproperty id="relational_unique">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_unique</name>
+        <name language="zh">relational_unique</name>
+        <name language="ja">relational_unique</name>
+        <name language="en">relational_unique</name>
+        <name language="es">relational_unique</name>
+        <name language="de">relational_unique</name>
+        <name language="pt">relational_unique</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_77351418423283574" type="sql">
+    <description language="en">RelationalTablePrimaryKeys</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>select * from Relational_Model_view.Table_Primary_Key</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="table_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="primarykey_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">primarykey_name</name>
+        <name language="zh">primarykey_name</name>
+        <name language="ja">primarykey_name</name>
+        <name language="en">primarykey_name</name>
+        <name language="es">primarykey_name</name>
+        <name language="de">primarykey_name</name>
+        <name language="pt">primarykey_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_5941418423411615" type="sql">
+    <description language="en">RelationalTableUniqueKeys</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from Relational_Model_View.Table_Unique_key</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="table_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="uniquekey_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">uniquekey_name</name>
+        <name language="zh">uniquekey_name</name>
+        <name language="ja">uniquekey_name</name>
+        <name language="en">uniquekey_name</name>
+        <name language="es">uniquekey_name</name>
+        <name language="de">uniquekey_name</name>
+        <name language="pt">uniquekey_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <dataprovider code="dataprovider_8801418423169487" type="sql">
+    <description language="en">RelationalTables</description>
+    <sqlprovider>
+      <datasource>TeiidReadingModeshape</datasource>
+<query>Select * from Relational_Model_View.Tables</query>
+    </sqlprovider>
+    <dataproperties>
+      <dataproperty id="table_name">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+      </dataproperty>
+      <dataproperty id="jcr_path">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+      </dataproperty>
+      <dataproperty id="jcr_primarytype">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">jcr_primarytype</name>
+        <name language="zh">jcr_primarytype</name>
+        <name language="ja">jcr_primarytype</name>
+        <name language="en">jcr_primarytype</name>
+        <name language="es">jcr_primarytype</name>
+        <name language="de">jcr_primarytype</name>
+        <name language="pt">jcr_primarytype</name>
+      </dataproperty>
+      <dataproperty id="jcr_score">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">jcr_score</name>
+        <name language="zh">jcr_score</name>
+        <name language="ja">jcr_score</name>
+        <name language="en">jcr_score</name>
+        <name language="es">jcr_score</name>
+        <name language="de">jcr_score</name>
+        <name language="pt">jcr_score</name>
+      </dataproperty>
+      <dataproperty id="mode_depth">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">mode_depth</name>
+        <name language="zh">mode_depth</name>
+        <name language="ja">mode_depth</name>
+        <name language="en">mode_depth</name>
+        <name language="es">mode_depth</name>
+        <name language="de">mode_depth</name>
+        <name language="pt">mode_depth</name>
+      </dataproperty>
+      <dataproperty id="mode_localname">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+      </dataproperty>
+      <dataproperty id="relational_cardinality">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">relational_cardinality</name>
+        <name language="zh">relational_cardinality</name>
+        <name language="ja">relational_cardinality</name>
+        <name language="en">relational_cardinality</name>
+        <name language="es">relational_cardinality</name>
+        <name language="de">relational_cardinality</name>
+        <name language="pt">relational_cardinality</name>
+      </dataproperty>
+      <dataproperty id="relational_materialized">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_materialized</name>
+        <name language="zh">relational_materialized</name>
+        <name language="ja">relational_materialized</name>
+        <name language="en">relational_materialized</name>
+        <name language="es">relational_materialized</name>
+        <name language="de">relational_materialized</name>
+        <name language="pt">relational_materialized</name>
+      </dataproperty>
+      <dataproperty id="relational_nameinsource">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+      </dataproperty>
+      <dataproperty id="relational_supportsupdate">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_supportsupdate</name>
+        <name language="zh">relational_supportsupdate</name>
+        <name language="ja">relational_supportsupdate</name>
+        <name language="en">relational_supportsupdate</name>
+        <name language="es">relational_supportsupdate</name>
+        <name language="de">relational_supportsupdate</name>
+        <name language="pt">relational_supportsupdate</name>
+      </dataproperty>
+      <dataproperty id="relational_system">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relational_system</name>
+        <name language="zh">relational_system</name>
+        <name language="ja">relational_system</name>
+        <name language="en">relational_system</name>
+        <name language="es">relational_system</name>
+        <name language="de">relational_system</name>
+        <name language="pt">relational_system</name>
+      </dataproperty>
+      <dataproperty id="xmi_uuid">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <kpi code="kpi_19791418651161599">
+    <description language="en">Foreign Keys</description>
+    <provider code="dataprovider_46601418423334161" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>5</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>foreignkey_name</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">foreignkey_name</name>
+        <name language="zh">foreignkey_name</name>
+        <name language="ja">foreignkey_name</name>
+        <name language="en">foreignkey_name</name>
+        <name language="es">foreignkey_name</name>
+        <name language="de">foreignkey_name</name>
+        <name language="pt">foreignkey_name</name>
+        <hint language="fr">foreignkey_name</hint>
+        <hint language="zh">foreignkey_name</hint>
+        <hint language="ja">foreignkey_name</hint>
+        <hint language="en">foreignkey_name</hint>
+        <hint language="es">foreignkey_name</hint>
+        <hint language="de">foreignkey_name</hint>
+        <hint language="pt">foreignkey_name</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_foreignkeymultiplicity</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">relational_foreignkeymultiplicity</name>
+        <name language="zh">relational_foreignkeymultiplicity</name>
+        <name language="ja">relational_foreignkeymultiplicity</name>
+        <name language="en">relational_foreignkeymultiplicity</name>
+        <name language="es">relational_foreignkeymultiplicity</name>
+        <name language="de">relational_foreignkeymultiplicity</name>
+        <name language="pt">relational_foreignkeymultiplicity</name>
+        <hint language="fr">relational_foreignkeymultiplicity</hint>
+        <hint language="zh">relational_foreignkeymultiplicity</hint>
+        <hint language="ja">relational_foreignkeymultiplicity</hint>
+        <hint language="en">relational_foreignkeymultiplicity</hint>
+        <hint language="es">relational_foreignkeymultiplicity</hint>
+        <hint language="de">relational_foreignkeymultiplicity</hint>
+        <hint language="pt">relational_foreignkeymultiplicity</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_nameinsource</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+        <hint language="fr">relational_nameinsource</hint>
+        <hint language="zh">relational_nameinsource</hint>
+        <hint language="ja">relational_nameinsource</hint>
+        <hint language="en">relational_nameinsource</hint>
+        <hint language="es">relational_nameinsource</hint>
+        <hint language="de">relational_nameinsource</hint>
+        <hint language="pt">relational_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:450px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:450px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_19681418651132360">
+    <description language="en">Indexes</description>
+    <provider code="dataprovider_66661418423492957" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>5</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>index_name</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">index_name</name>
+        <name language="zh">index_name</name>
+        <name language="ja">index_name</name>
+        <name language="en">index_name</name>
+        <name language="es">index_name</name>
+        <name language="de">index_name</name>
+        <name language="pt">index_name</name>
+        <hint language="fr">index_name</hint>
+        <hint language="zh">index_name</hint>
+        <hint language="ja">index_name</hint>
+        <hint language="en">index_name</hint>
+        <hint language="es">index_name</hint>
+        <hint language="de">index_name</hint>
+        <hint language="pt">index_name</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_autoupdate</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">relational_autoupdate</name>
+        <name language="zh">relational_autoupdate</name>
+        <name language="ja">relational_autoupdate</name>
+        <name language="en">relational_autoupdate</name>
+        <name language="es">relational_autoupdate</name>
+        <name language="de">relational_autoupdate</name>
+        <name language="pt">relational_autoupdate</name>
+        <hint language="fr">relational_autoupdate</hint>
+        <hint language="zh">relational_autoupdate</hint>
+        <hint language="ja">relational_autoupdate</hint>
+        <hint language="en">relational_autoupdate</hint>
+        <hint language="es">relational_autoupdate</hint>
+        <hint language="de">relational_autoupdate</hint>
+        <hint language="pt">relational_autoupdate</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_filtercondition</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">relational_filtercondition</name>
+        <name language="zh">relational_filtercondition</name>
+        <name language="ja">relational_filtercondition</name>
+        <name language="en">relational_filtercondition</name>
+        <name language="es">relational_filtercondition</name>
+        <name language="de">relational_filtercondition</name>
+        <name language="pt">relational_filtercondition</name>
+        <hint language="fr">relational_filtercondition</hint>
+        <hint language="zh">relational_filtercondition</hint>
+        <hint language="ja">relational_filtercondition</hint>
+        <hint language="en">relational_filtercondition</hint>
+        <hint language="es">relational_filtercondition</hint>
+        <hint language="de">relational_filtercondition</hint>
+        <hint language="pt">relational_filtercondition</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:450px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:450px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_19461418651041472">
+    <description language="en">Primary Keys</description>
+    <provider code="dataprovider_77351418423283574" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>5</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>primarykey_name</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">primarykey_name</name>
+        <name language="zh">primarykey_name</name>
+        <name language="ja">primarykey_name</name>
+        <name language="en">primarykey_name</name>
+        <name language="es">primarykey_name</name>
+        <name language="de">primarykey_name</name>
+        <name language="pt">primarykey_name</name>
+        <hint language="fr">primarykey_name</hint>
+        <hint language="zh">primarykey_name</hint>
+        <hint language="ja">primarykey_name</hint>
+        <hint language="en">primarykey_name</hint>
+        <hint language="es">primarykey_name</hint>
+        <hint language="de">primarykey_name</hint>
+        <hint language="pt">primarykey_name</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_nameinsource</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+        <hint language="fr">relational_nameinsource</hint>
+        <hint language="zh">relational_nameinsource</hint>
+        <hint language="ja">relational_nameinsource</hint>
+        <hint language="en">relational_nameinsource</hint>
+        <hint language="es">relational_nameinsource</hint>
+        <hint language="de">relational_nameinsource</hint>
+        <hint language="pt">relational_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:450px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:450px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>xmi_uuid</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+        <hint language="fr">xmi_uuid</hint>
+        <hint language="zh">xmi_uuid</hint>
+        <hint language="ja">xmi_uuid</hint>
+        <hint language="en">xmi_uuid</hint>
+        <hint language="es">xmi_uuid</hint>
+        <hint language="de">xmi_uuid</hint>
+        <hint language="pt">xmi_uuid</hint>
+        <headerhtmlstyle>text-align:center; width:250px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:250px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_18951418423668596">
+    <description language="en">RelationalTables</description>
+    <provider code="dataprovider_8801418423169487" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_cardinality</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">relational_cardinality</name>
+        <name language="zh">relational_cardinality</name>
+        <name language="ja">relational_cardinality</name>
+        <name language="en">relational_cardinality</name>
+        <name language="es">relational_cardinality</name>
+        <name language="de">relational_cardinality</name>
+        <name language="pt">relational_cardinality</name>
+        <hint language="fr">relational_cardinality</hint>
+        <hint language="zh">relational_cardinality</hint>
+        <hint language="ja">relational_cardinality</hint>
+        <hint language="en">relational_cardinality</hint>
+        <hint language="es">relational_cardinality</hint>
+        <hint language="de">relational_cardinality</hint>
+        <hint language="pt">relational_cardinality</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_materialized</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">relational_materialized</name>
+        <name language="zh">relational_materialized</name>
+        <name language="ja">relational_materialized</name>
+        <name language="en">relational_materialized</name>
+        <name language="es">relational_materialized</name>
+        <name language="de">relational_materialized</name>
+        <name language="pt">relational_materialized</name>
+        <hint language="fr">relational_materialized</hint>
+        <hint language="zh">relational_materialized</hint>
+        <hint language="ja">relational_materialized</hint>
+        <hint language="en">relational_materialized</hint>
+        <hint language="es">relational_materialized</hint>
+        <hint language="de">relational_materialized</hint>
+        <hint language="pt">relational_materialized</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_nameinsource</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+        <hint language="fr">relational_nameinsource</hint>
+        <hint language="zh">relational_nameinsource</hint>
+        <hint language="ja">relational_nameinsource</hint>
+        <hint language="en">relational_nameinsource</hint>
+        <hint language="es">relational_nameinsource</hint>
+        <hint language="de">relational_nameinsource</hint>
+        <hint language="pt">relational_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_supportsupdate</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">relational_supportsupdate</name>
+        <name language="zh">relational_supportsupdate</name>
+        <name language="ja">relational_supportsupdate</name>
+        <name language="en">relational_supportsupdate</name>
+        <name language="es">relational_supportsupdate</name>
+        <name language="de">relational_supportsupdate</name>
+        <name language="pt">relational_supportsupdate</name>
+        <hint language="fr">relational_supportsupdate</hint>
+        <hint language="zh">relational_supportsupdate</hint>
+        <hint language="ja">relational_supportsupdate</hint>
+        <hint language="en">relational_supportsupdate</hint>
+        <hint language="es">relational_supportsupdate</hint>
+        <hint language="de">relational_supportsupdate</hint>
+        <hint language="pt">relational_supportsupdate</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>6</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_19171418424202934">
+    <description language="en">Relational_Table_Columns</description>
+    <provider code="dataprovider_27911418423367099" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:140px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:140px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>table_nameinsource</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">table_nameinsource</name>
+        <name language="zh">table_nameinsource</name>
+        <name language="ja">table_nameinsource</name>
+        <name language="en">table_nameinsource</name>
+        <name language="es">table_nameinsource</name>
+        <name language="de">table_nameinsource</name>
+        <name language="pt">table_nameinsource</name>
+        <hint language="fr">table_nameinsource</hint>
+        <hint language="zh">table_nameinsource</hint>
+        <hint language="ja">table_nameinsource</hint>
+        <hint language="en">table_nameinsource</hint>
+        <hint language="es">table_nameinsource</hint>
+        <hint language="de">table_nameinsource</hint>
+        <hint language="pt">table_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>column_name</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">column_name</name>
+        <name language="zh">column_name</name>
+        <name language="ja">column_name</name>
+        <name language="en">column_name</name>
+        <name language="es">column_name</name>
+        <name language="de">column_name</name>
+        <name language="pt">column_name</name>
+        <hint language="fr">column_name</hint>
+        <hint language="zh">column_name</hint>
+        <hint language="ja">column_name</hint>
+        <hint language="en">column_name</hint>
+        <hint language="es">column_name</hint>
+        <hint language="de">column_name</hint>
+        <hint language="pt">column_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_autoincremented</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">relational_autoincremented</name>
+        <name language="zh">relational_autoincremented</name>
+        <name language="ja">relational_autoincremented</name>
+        <name language="en">relational_autoincremented</name>
+        <name language="es">relational_autoincremented</name>
+        <name language="de">relational_autoincremented</name>
+        <name language="pt">relational_autoincremented</name>
+        <hint language="fr">relational_autoincremented</hint>
+        <hint language="zh">relational_autoincremented</hint>
+        <hint language="ja">relational_autoincremented</hint>
+        <hint language="en">relational_autoincremented</hint>
+        <hint language="es">relational_autoincremented</hint>
+        <hint language="de">relational_autoincremented</hint>
+        <hint language="pt">relational_autoincremented</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_casesensitive</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">relational_casesensitive</name>
+        <name language="zh">relational_casesensitive</name>
+        <name language="ja">relational_casesensitive</name>
+        <name language="en">relational_casesensitive</name>
+        <name language="es">relational_casesensitive</name>
+        <name language="de">relational_casesensitive</name>
+        <name language="pt">relational_casesensitive</name>
+        <hint language="fr">relational_casesensitive</hint>
+        <hint language="zh">relational_casesensitive</hint>
+        <hint language="ja">relational_casesensitive</hint>
+        <hint language="en">relational_casesensitive</hint>
+        <hint language="es">relational_casesensitive</hint>
+        <hint language="de">relational_casesensitive</hint>
+        <hint language="pt">relational_casesensitive</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>6</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_19571418651105294">
+    <description language="en">Unique Keys</description>
+    <provider code="dataprovider_5941418423411615" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>5</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>uniquekey_name</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">uniquekey_name</name>
+        <name language="zh">uniquekey_name</name>
+        <name language="ja">uniquekey_name</name>
+        <name language="en">uniquekey_name</name>
+        <name language="es">uniquekey_name</name>
+        <name language="de">uniquekey_name</name>
+        <name language="pt">uniquekey_name</name>
+        <hint language="fr">uniquekey_name</hint>
+        <hint language="zh">uniquekey_name</hint>
+        <hint language="ja">uniquekey_name</hint>
+        <hint language="en">uniquekey_name</hint>
+        <hint language="es">uniquekey_name</hint>
+        <hint language="de">uniquekey_name</hint>
+        <hint language="pt">uniquekey_name</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mode_localname</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mode_localname</name>
+        <name language="zh">mode_localname</name>
+        <name language="ja">mode_localname</name>
+        <name language="en">mode_localname</name>
+        <name language="es">mode_localname</name>
+        <name language="de">mode_localname</name>
+        <name language="pt">mode_localname</name>
+        <hint language="fr">mode_localname</hint>
+        <hint language="zh">mode_localname</hint>
+        <hint language="ja">mode_localname</hint>
+        <hint language="en">mode_localname</hint>
+        <hint language="es">mode_localname</hint>
+        <hint language="de">mode_localname</hint>
+        <hint language="pt">mode_localname</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>relational_nameinsource</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">relational_nameinsource</name>
+        <name language="zh">relational_nameinsource</name>
+        <name language="ja">relational_nameinsource</name>
+        <name language="en">relational_nameinsource</name>
+        <name language="es">relational_nameinsource</name>
+        <name language="de">relational_nameinsource</name>
+        <name language="pt">relational_nameinsource</name>
+        <hint language="fr">relational_nameinsource</hint>
+        <hint language="zh">relational_nameinsource</hint>
+        <hint language="ja">relational_nameinsource</hint>
+        <hint language="en">relational_nameinsource</hint>
+        <hint language="es">relational_nameinsource</hint>
+        <hint language="de">relational_nameinsource</hint>
+        <hint language="pt">relational_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:450px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:450px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>xmi_uuid</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">xmi_uuid</name>
+        <name language="zh">xmi_uuid</name>
+        <name language="ja">xmi_uuid</name>
+        <name language="en">xmi_uuid</name>
+        <name language="es">xmi_uuid</name>
+        <name language="de">xmi_uuid</name>
+        <name language="pt">xmi_uuid</name>
+        <hint language="fr">xmi_uuid</hint>
+        <hint language="zh">xmi_uuid</hint>
+        <hint language="ja">xmi_uuid</hint>
+        <hint language="en">xmi_uuid</hint>
+        <hint language="es">xmi_uuid</hint>
+        <hint language="de">xmi_uuid</hint>
+        <hint language="pt">xmi_uuid</hint>
+        <headerhtmlstyle>text-align:center; width:250px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:250px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_20421418656796718">
+    <description language="en">VDB Model Tables</description>
+    <provider code="dataprovider_84141418651846356" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>15</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>table_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">table_name</name>
+        <name language="zh">table_name</name>
+        <name language="ja">table_name</name>
+        <name language="en">table_name</name>
+        <name language="es">table_name</name>
+        <name language="de">table_name</name>
+        <name language="pt">table_name</name>
+        <hint language="fr">table_name</hint>
+        <hint language="zh">table_name</hint>
+        <hint language="ja">table_name</hint>
+        <hint language="en">table_name</hint>
+        <hint language="es">table_name</hint>
+        <hint language="de">table_name</hint>
+        <hint language="pt">table_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>model_name</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">model_name</name>
+        <name language="zh">model_name</name>
+        <name language="ja">model_name</name>
+        <name language="en">model_name</name>
+        <name language="es">model_name</name>
+        <name language="de">model_name</name>
+        <name language="pt">model_name</name>
+        <hint language="fr">model_name</hint>
+        <hint language="zh">model_name</hint>
+        <hint language="ja">model_name</hint>
+        <hint language="en">model_name</hint>
+        <hint language="es">model_name</hint>
+        <hint language="de">model_name</hint>
+        <hint language="pt">model_name</hint>
+        <headerhtmlstyle>text-align:center; width:150px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:150px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_modeltype</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mmcore_modeltype</name>
+        <name language="zh">mmcore_modeltype</name>
+        <name language="ja">mmcore_modeltype</name>
+        <name language="en">mmcore_modeltype</name>
+        <name language="es">mmcore_modeltype</name>
+        <name language="de">mmcore_modeltype</name>
+        <name language="pt">mmcore_modeltype</name>
+        <hint language="fr">mmcore_modeltype</hint>
+        <hint language="zh">mmcore_modeltype</hint>
+        <hint language="ja">mmcore_modeltype</hint>
+        <hint language="en">mmcore_modeltype</hint>
+        <hint language="es">mmcore_modeltype</hint>
+        <hint language="de">mmcore_modeltype</hint>
+        <hint language="pt">mmcore_modeltype</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:500px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:500px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_20201418656712844">
+    <description language="en">VDB Models</description>
+    <provider code="dataprovider_72211418651756306" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>model_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">model_name</name>
+        <name language="zh">model_name</name>
+        <name language="ja">model_name</name>
+        <name language="en">model_name</name>
+        <name language="es">model_name</name>
+        <name language="de">model_name</name>
+        <name language="pt">model_name</name>
+        <hint language="fr">model_name</hint>
+        <hint language="zh">model_name</hint>
+        <hint language="ja">model_name</hint>
+        <hint language="en">model_name</hint>
+        <hint language="es">model_name</hint>
+        <hint language="de">model_name</hint>
+        <hint language="pt">model_name</hint>
+        <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_description</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">mmcore_description</name>
+        <name language="zh">mmcore_description</name>
+        <name language="ja">mmcore_description</name>
+        <name language="en">mmcore_description</name>
+        <name language="es">mmcore_description</name>
+        <name language="de">mmcore_description</name>
+        <name language="pt">mmcore_description</name>
+        <hint language="fr">mmcore_description</hint>
+        <hint language="zh">mmcore_description</hint>
+        <hint language="ja">mmcore_description</hint>
+        <hint language="en">mmcore_description</hint>
+        <hint language="es">mmcore_description</hint>
+        <hint language="de">mmcore_description</hint>
+        <hint language="pt">mmcore_description</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_modeltype</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">mmcore_modeltype</name>
+        <name language="zh">mmcore_modeltype</name>
+        <name language="ja">mmcore_modeltype</name>
+        <name language="en">modeltype</name>
+        <name language="es">mmcore_modeltype</name>
+        <name language="de">mmcore_modeltype</name>
+        <name language="pt">mmcore_modeltype</name>
+        <hint language="fr">mmcore_modeltype</hint>
+        <hint language="zh">mmcore_modeltype</hint>
+        <hint language="ja">mmcore_modeltype</hint>
+        <hint language="en">modeltype</hint>
+        <hint language="es">mmcore_modeltype</hint>
+        <hint language="de">mmcore_modeltype</hint>
+        <hint language="pt">mmcore_modeltype</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_nameinsource</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">mmcore_nameinsource</name>
+        <name language="zh">mmcore_nameinsource</name>
+        <name language="ja">mmcore_nameinsource</name>
+        <name language="en">mmcore_nameinsource</name>
+        <name language="es">mmcore_nameinsource</name>
+        <name language="de">mmcore_nameinsource</name>
+        <name language="pt">mmcore_nameinsource</name>
+        <hint language="fr">mmcore_nameinsource</hint>
+        <hint language="zh">mmcore_nameinsource</hint>
+        <hint language="ja">mmcore_nameinsource</hint>
+        <hint language="en">mmcore_nameinsource</hint>
+        <hint language="es">mmcore_nameinsource</hint>
+        <hint language="de">mmcore_nameinsource</hint>
+        <hint language="pt">mmcore_nameinsource</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_maxsetsize</modelproperty>
+        <viewindex>5</viewindex>
+        <name language="fr">mmcore_maxsetsize</name>
+        <name language="zh">mmcore_maxsetsize</name>
+        <name language="ja">mmcore_maxsetsize</name>
+        <name language="en">mmcore_maxsetsize</name>
+        <name language="es">mmcore_maxsetsize</name>
+        <name language="de">mmcore_maxsetsize</name>
+        <name language="pt">mmcore_maxsetsize</name>
+        <hint language="fr">mmcore_maxsetsize</hint>
+        <hint language="zh">mmcore_maxsetsize</hint>
+        <hint language="ja">mmcore_maxsetsize</hint>
+        <hint language="en">mmcore_maxsetsize</hint>
+        <hint language="es">mmcore_maxsetsize</hint>
+        <hint language="de">mmcore_maxsetsize</hint>
+        <hint language="pt">mmcore_maxsetsize</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_uuid</modelproperty>
+        <viewindex>6</viewindex>
+        <name language="fr">jcr_uuid</name>
+        <name language="zh">jcr_uuid</name>
+        <name language="ja">jcr_uuid</name>
+        <name language="en">jcr_uuid</name>
+        <name language="es">jcr_uuid</name>
+        <name language="de">jcr_uuid</name>
+        <name language="pt">jcr_uuid</name>
+        <hint language="fr">jcr_uuid</hint>
+        <hint language="zh">jcr_uuid</hint>
+        <hint language="ja">jcr_uuid</hint>
+        <hint language="en">jcr_uuid</hint>
+        <hint language="es">jcr_uuid</hint>
+        <hint language="de">jcr_uuid</hint>
+        <hint language="pt">jcr_uuid</hint>
+        <headerhtmlstyle>text-align:center; width:250px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:250px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>mmcore_originalfile</modelproperty>
+        <viewindex>7</viewindex>
+        <name language="fr">mmcore_originalfile</name>
+        <name language="zh">mmcore_originalfile</name>
+        <name language="ja">mmcore_originalfile</name>
+        <name language="en">mmcore_originalfile</name>
+        <name language="es">mmcore_originalfile</name>
+        <name language="de">mmcore_originalfile</name>
+        <name language="pt">mmcore_originalfile</name>
+        <hint language="fr">mmcore_originalfile</hint>
+        <hint language="zh">mmcore_originalfile</hint>
+        <hint language="ja">mmcore_originalfile</hint>
+        <hint language="en">mmcore_originalfile</hint>
+        <hint language="es">mmcore_originalfile</hint>
+        <hint language="de">mmcore_originalfile</hint>
+        <hint language="pt">mmcore_originalfile</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_19961418652002321">
+    <description language="en">VDBs</description>
+    <provider code="dataprovider_55031418651706568" />
+    <displayer type="table" renderer="default">
+      <rowsperpage>10</rowsperpage>
+      <headerposition>top</headerposition>
+      <htmlstyle>border: 1px solid #000000; padding:0; text-align:center;</htmlstyle>
+      <htmlclass>skn-table_border</htmlclass>
+      <rowevenclass>skn-even_row</rowevenclass>
+      <rowoddclass>skn-odd_row</rowoddclass>
+      <rowhoverclass>skn-even_row_alt</rowhoverclass>
+      <column>
+        <modelproperty>vdb_name</modelproperty>
+        <viewindex>0</viewindex>
+        <name language="fr">vdb_name</name>
+        <name language="zh">vdb_name</name>
+        <name language="ja">vdb_name</name>
+        <name language="en">vdb_name</name>
+        <name language="es">vdb_name</name>
+        <name language="de">vdb_name</name>
+        <name language="pt">vdb_name</name>
+        <hint language="fr">vdb_name</hint>
+        <hint language="zh">vdb_name</hint>
+        <hint language="ja">vdb_name</hint>
+        <hint language="en">vdb_name</hint>
+        <hint language="es">vdb_name</hint>
+        <hint language="de">vdb_name</hint>
+        <hint language="pt">vdb_name</hint>
+        <headerhtmlstyle>text-align:center; width:200px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:200px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>description</modelproperty>
+        <viewindex>1</viewindex>
+        <name language="fr">description</name>
+        <name language="zh">description</name>
+        <name language="ja">description</name>
+        <name language="en">description</name>
+        <name language="es">description</name>
+        <name language="de">description</name>
+        <name language="pt">description</name>
+        <hint language="fr">description</hint>
+        <hint language="zh">description</hint>
+        <hint language="ja">description</hint>
+        <hint language="en">description</hint>
+        <hint language="es">description</hint>
+        <hint language="de">description</hint>
+        <hint language="pt">description</hint>
+        <headerhtmlstyle>text-align:center; width:300px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:300px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>jcr_path</modelproperty>
+        <viewindex>2</viewindex>
+        <name language="fr">jcr_path</name>
+        <name language="zh">jcr_path</name>
+        <name language="ja">jcr_path</name>
+        <name language="en">jcr_path</name>
+        <name language="es">jcr_path</name>
+        <name language="de">jcr_path</name>
+        <name language="pt">jcr_path</name>
+        <hint language="fr">jcr_path</hint>
+        <hint language="zh">jcr_path</hint>
+        <hint language="ja">jcr_path</hint>
+        <hint language="en">jcr_path</hint>
+        <hint language="es">jcr_path</hint>
+        <hint language="de">jcr_path</hint>
+        <hint language="pt">jcr_path</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>vdb_originalfile</modelproperty>
+        <viewindex>3</viewindex>
+        <name language="fr">vdb_originalfile</name>
+        <name language="zh">vdb_originalfile</name>
+        <name language="ja">vdb_originalfile</name>
+        <name language="en">vdb_originalfile</name>
+        <name language="es">vdb_originalfile</name>
+        <name language="de">vdb_originalfile</name>
+        <name language="pt">vdb_originalfile</name>
+        <hint language="fr">vdb_originalfile</hint>
+        <hint language="zh">vdb_originalfile</hint>
+        <hint language="ja">vdb_originalfile</hint>
+        <hint language="en">vdb_originalfile</hint>
+        <hint language="es">vdb_originalfile</hint>
+        <hint language="de">vdb_originalfile</hint>
+        <hint language="pt">vdb_originalfile</hint>
+        <headerhtmlstyle>text-align:center; width:400px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:400px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+      <column>
+        <modelproperty>vdb_preview</modelproperty>
+        <viewindex>4</viewindex>
+        <name language="fr">vdb_preview</name>
+        <name language="zh">vdb_preview</name>
+        <name language="ja">vdb_preview</name>
+        <name language="en">vdb_preview</name>
+        <name language="es">vdb_preview</name>
+        <name language="de">vdb_preview</name>
+        <name language="pt">vdb_preview</name>
+        <hint language="fr">vdb_preview</hint>
+        <hint language="zh">vdb_preview</hint>
+        <hint language="ja">vdb_preview</hint>
+        <hint language="en">vdb_preview</hint>
+        <hint language="es">vdb_preview</hint>
+        <hint language="de">vdb_preview</hint>
+        <hint language="pt">vdb_preview</hint>
+        <headerhtmlstyle>text-align:center; width:100px; overflow:hidden; background-color:#C6D8EB; height:20px; color:#465F7D; font-weight:Bold;  white-space:nowrap;</headerhtmlstyle>
+        <cellhtmlstyle>width:100px; height:20px;  white-space:nowrap;</cellhtmlstyle>
+        <htmlvalue>{value}</htmlvalue>
+        <selectable>false</selectable>
+        <sortable>true</sortable>
+      </column>
+    </displayer>
+  </kpi>
+</kpis>
