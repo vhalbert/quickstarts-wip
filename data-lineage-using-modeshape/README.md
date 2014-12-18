@@ -36,10 +36,12 @@ System requirements
 
 2)  ModeShape.vdb Deployment, there are several options:
 
+NOTE: This artifact is already deployed in DV 6.1
+
 	(1) Open the teiid-designer-project-set in Teiid Designer and deploy 
 	(2) copy the following files to the $JBOSS_HOME/standalone/deployments directory
-     	(a) src/vdb/portfolio-vdb.xml
-     	(b) src/vdb/portfolio-vdb.xml.dodeploy
+     	(a) teiid-designer-project-set/DV61_ModeShape/ModeShape.vdb
+     	(b) teiid-designer-project-set/DV61_ModeShape/ModeShape.vdb.dodeploy
     (3) use the admin console (http://localhost:9990/console)
     (4) run jboss-cli with command:  deploy /path/to/ModeShape.vdb
 
